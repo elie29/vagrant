@@ -10,10 +10,10 @@ apt-get update
 apt-get install -y apache2
 
 # Delete the folder where apache serves files
-# Create a symbolic link to our vagrant folder (automatically mounted, C:\cygwin64\home\enehme\vagrant)
+# Create a symbolic link to our standalone folder (automatically mounted, C:\cygwin64\home\enehme\standalone)
 if ! [ -L /var/www ]; then
   rm -rf /var/www
-  ln -fs /vagrant /var/www
+  ln -fs /standalone /var/www
 fi
 
 # Append ServerName to apache2.conf
