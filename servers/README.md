@@ -22,5 +22,7 @@ SSH a machine
 
 ```
 vagrant ssh web
+   ping 192.168.33.11
 vargrant ssh db
+   ping 192.168.33.10
 ```

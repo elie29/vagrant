@@ -30,7 +30,7 @@ service apache2 restart
 
 # ADD to .bashrc
 # colors!
-echo ""
+echo "" >> /home/vagrant/.bashrc
 echo 'red="\[\033[1;317m\]"' >> /home/vagrant/.bashrc
 echo 'green="\[\033[1;32m\]"' >> /home/vagrant/.bashrc
 echo 'purple="\[\033[1;35m\]"' >> /home/vagrant/.bashrc
