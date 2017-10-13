@@ -13,15 +13,17 @@ It is used to launch db and web servers
 Commands
 --------
   
+> vagrant init ubuntu/trusty64:
+This command adds a new ubunty virtual machine in your current folder
+
+> vagrant up:
+This gets your virtual machine up and running again.
 
 > vagrant status:
 This command will show you the current status of the virtual machine.
 
 > vagrant suspend:
-This command suspends your virtual machine. All of your work is saved and the machine is put into a “sleep mode” of sorts. 
-
-> vagrant up:
-This gets your virtual machine up and running again. 
+This command suspends your virtual machine. All of your work is saved and the machine is put into a “sleep mode” of sorts.  
 
 > vagrant ssh:
 This command will actually connect to and log you into your virtual machine. 
